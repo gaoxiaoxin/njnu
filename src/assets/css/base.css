@@ -9,7 +9,7 @@ body {
   min-width: 1200px;
 }
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 10px;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #cdbda4;

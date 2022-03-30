@@ -21,7 +21,7 @@
 
 <script>
 import * as echarts from "echarts";
-import peopleRelation from "../personConfig/index";
+import peopleRelation from "../ensemable/config/index";
 import graphCategories from "../ensemable/config";
 import ch2Vue from "../ch2/ch2.vue";
 export default {
@@ -92,7 +92,7 @@ export default {
       var myChart = echarts.init(this.$refs.relation);
       this.graph.nodes.forEach((node) => {
         node.label = {
-          show: node.symbolSize > 19, // 设置是否显示label的内容
+          show: node.symbolSize > 5, // 设置是否显示label的内容
         };
       });
       // 绘制图表
@@ -163,7 +163,7 @@ export default {
   },
   mounted() {
     this.peopleRelation = peopleRelation;
-    this.graph = peopleRelation.gaoxu;
+    this.graph = peopleRelation.ligengyuan;
   },
 };
 </script>

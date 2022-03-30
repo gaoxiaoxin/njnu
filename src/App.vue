@@ -38,22 +38,46 @@
       </div>
       <div></div>
     </div>
-    <div class="graph">
-      <div class="title"><h2>人物关系图</h2></div>
-      <relation></relation>
+    <div class="groupGathering">
+      <heroes></heroes>
     </div>
     <div class="talentedWomanBeauty">
       <twb></twb>
     </div>
-    <div class="groupGathering">
-      <heroes></heroes>
-    </div>
-    <div class="map-com">
-      <!-- <map-vue></map-vue> -->
-    </div>
     <div class="sunburst_ec">
       <sunburst></sunburst>
     </div>
+    <div class="graph_text">
+      <div class="ps">
+        <p>昔年离散亦如梦，谁料天涯生再共。</p>
+        <p>
+          这一时期的苏州诗人以诗文书画为纽带，建立了庞大而复杂的社会交游网络，在这个关系网络之中，可以见到具有个人独特魅力的诗人画像，也能挖掘其深层的文化心理，进而能够帮助重现文坛主流与边缘的复杂互动。
+        </p>
+        <p>嘤其鸣矣，求其友声。</p>
+      </div>
+    </div>
+    <div class="graph">
+      <div class="title"><h2>人物关系图</h2></div>
+      <relation></relation>
+    </div>
+
+    <div class="map-com">
+      <map-vue></map-vue>
+    </div>
+    <div class="ciYundom">
+      <div class="img">
+        <!-- <img src="./assets/img/46.png" alt="" /> -->
+      </div>
+      <div class="ciyun"></div>
+    </div>
+    <div class="overText">
+      <div class="ps">
+        <p>吴越之孙，千波万澜。世挺伟才，扞灾御难。</p>
+        <p>古欢已矣，耆旧雨散。遗容火色，犹照赤岸。翁乎归来，余言岂谩。</p>
+      </div>
+    </div>
+    <change></change>
+    <div class="gratitude"></div>
   </div>
 </template>
 
@@ -63,6 +87,7 @@ import { twb } from "./components/talentedWomanBeauty";
 import heroes from "./components/Heroes/heroes.vue";
 import mapVue from "./components/map/mapMyChart.vue";
 import sunburst from "./components/sunburst/index.vue";
+import change from "./components/changeByTime/index.vue";
 export default {
   name: "App",
   components: {
@@ -71,6 +96,7 @@ export default {
     heroes,
     mapVue,
     sunburst,
+    change,
   },
   data() {
     return {
@@ -130,8 +156,12 @@ export default {
 }
 .two-module {
   display: flex;
-  height: 500px;
+  height: 700px;
   margin-bottom: 30px;
+  background-image: url(./assets/img/43.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 500px 250px;
   .bamboo_img {
     width: 400px;
     img {
@@ -146,16 +176,61 @@ export default {
   background-position: right bottom;
 }
 .map-com {
-  height: 400px;
+  height: 700px;
+  border: 1px solid #333;
 }
 .sunburst_ec {
-  height: 1000px;
   display: flex;
-  background-image: url(./assets/img/42.png);
-  background-repeat: no-repeat;
-  background-size: 400px 250px;
-  background-position: right;
-  justify-content: center;
   align-items: center;
+}
+.graph_text {
+  background-image: url(./assets/img/47.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 500px 300px;
+  width: 100%;
+  height: 700px;
+  border-top: 1px transparent solid;
+  .ps {
+    margin-top: 250px;
+    padding: 0 40px;
+  }
+}
+.ciYundom {
+  width: 100%;
+  height: 660px;
+  .img {
+    background-image: url(./assets/img/46.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 240px;
+  }
+  .ciyun {
+    background-image: url(./assets/img/12.png);
+    height: calc(100% - 240px);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+  }
+}
+.overText {
+  background-image: url(./assets/img/26.png);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  .ps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: flex-end;
+    margin-left: 500px;
+    height: 100%;
+  }
+}
+.gratitude {
+  height: 700px;
+  background-image: url(./assets/img/5.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 </style>

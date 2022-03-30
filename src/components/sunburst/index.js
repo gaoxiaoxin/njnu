@@ -2,6 +2,228 @@ const colors = ["#FFAE57", "#FF7853", "#EA5151", "#CC3F57", "#9A2555"];
 
 export default {
   data: [
+    {
+      name: '写景抒情',
+      itemStyle: {
+        color: '#c94930'
+      },
+      children: [
+        {
+          name: '喜爱自然 书写河山',
+          itemStyle: {
+            color: '#be8663'
+          },
+          children: [
+            {
+              name: '贝青乔《清凉山》',
+              value: 1,
+              itemStyle: {
+                color: '#b9a449'
+              }
+            },
+            {
+              name: '翁同龢《次韵奉题醇邸守默庵》',
+              value: 1,
+              itemStyle: {
+                color: '#899893'
+              }
+            },
+            {
+              name: '江湜《清江浦二首》',
+              value: 1,
+              itemStyle: {
+                color: '#a1743b'
+              }
+            },
+            {
+              name: '吴茝《天井》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            },
+            {
+              name: '陈去病《泛舟游佘山》',
+              value: 1,
+              itemStyle: {
+                color: '#b9a449'
+              }
+            },
+            {
+              name: '金天翮《芦墟晓发》',
+              value: 1,
+              itemStyle: {
+                color: '#899893'
+              }
+            },
+            {
+              name: '高旭《避暑小石川植物园中》',
+              value: 1,
+              itemStyle: {
+                color: '#a1743b'
+              }
+            }
+          ]
+        },
+        {
+          name: '宗教哲理 希言自然',
+          itemStyle: {
+            color: '#be8663'
+          },
+          children: [
+            {
+              name: '贝青乔《觉海寺探桂》',
+              value: 1,
+              itemStyle: {
+                color: '#b9a449'
+              }
+            },
+            {
+              name: '翁同龢《积雪发马兰峪》',
+              value: 1,
+              itemStyle: {
+                color: '#899893'
+              }
+            },
+            {
+              name: '江湜《晚登马鞍山》',
+              value: 1,
+              itemStyle: {
+                color: '#a1743b'
+              }
+            },
+            {
+              name: '吴茝《石壁》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            },
+            {
+              name: '陈去病《夏日过全福寺》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            },
+            {
+              name: '高旭《烟雨楼步痴佛韵》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            }
+          ]
+        },
+        {
+          name: '怜惜百姓 民瘼唯艰',
+          itemStyle: {
+            color: '#be8663'
+          },
+          children: [
+            {
+              name: '贝青乔《秦邮道中》',
+              value: 1,
+              itemStyle: {
+                color: '#b9a449'
+              }
+            },
+            {
+              name: '翁同龢《定福庄》',
+              value: 1,
+              itemStyle: {
+                color: '#899893'
+              }
+            },
+            {
+              name: '江湜《福宁》',
+              value: 1,
+              itemStyle: {
+                color: '#a1743b'
+              }
+            },
+            {
+              name: '吴茝《过郡城有感》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            },
+            {
+              name: '陈去病《瓜泾夜泊》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            },
+            {
+              name: '金天翮《快风阁》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            },
+            {
+              name: '曾朴《游南泡归途口占》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            },
+            {
+              name: '高旭《苏州纪游诗》',
+              value: 1,
+              itemStyle: {
+                color: '#894810'
+              }
+            }
+          ]
+        },
+        {
+          name: '羁旅流连 思念家乡',
+          itemStyle: {
+            color: '#ddaf61'
+          },
+          children: [
+            {
+              name: '贝青乔《旅感》',
+              value: 1,
+              itemStyle: {
+                color: '#b7906f'
+              }
+            },
+            {
+              name: '翁同龢《次韵度卢沟》',
+              value: 1,
+              itemStyle: {
+                color: '#eb9d5f'
+              }
+            },
+            {
+              name: '吴茝《登舻》',
+              value: 1,
+              itemStyle: {
+                color: '#eb9d5f'
+              }
+            },
+            {
+              name: '陈去病《晚步河西桥》',
+              value: 1,
+              itemStyle: {
+                color: '#eb9d5f'
+              }
+            },
+            {
+              name: '高旭《游爱宕山》',
+              value: 1,
+              itemStyle: {
+                color: '#eb9d5f'
+              }
+            }
+          ]
+        }
+      ]
+    },
     // 边塞
     {
       name: '边塞征战',
@@ -59,7 +281,7 @@ export default {
               }
             },
             {
-              name: '柳亚子 \n《五月二日醉后作,\n时闻滇师已败绩矣》',
+              name: '柳亚子\n《五月二日醉后作,时闻滇师已败绩矣》',
               value: 1,
               itemStyle: {
                 color: '#ef5a78'
@@ -468,6 +690,7 @@ export default {
         }
       ]
     },
+    // 酬赠往来
     {
       name: '酬赠往来',
       itemStyle: {
@@ -878,228 +1101,7 @@ export default {
       ]
     },
     // 写景抒情
-    {
-      name: '写景抒情',
-      itemStyle: {
-        color: '#c94930'
-      },
-      children: [
-        {
-          name: '喜爱自然 书写河山',
-          itemStyle: {
-            color: '#be8663'
-          },
-          children: [
-            {
-              name: '贝青乔《清凉山》',
-              value: 1,
-              itemStyle: {
-                color: '#b9a449'
-              }
-            },
-            {
-              name: '翁同龢《次韵奉题醇邸守默庵》',
-              value: 1,
-              itemStyle: {
-                color: '#899893'
-              }
-            },
-            {
-              name: '江湜《清江浦二首》',
-              value: 1,
-              itemStyle: {
-                color: '#a1743b'
-              }
-            },
-            {
-              name: '吴茝《天井》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            },
-            {
-              name: '陈去病《泛舟游佘山》',
-              value: 1,
-              itemStyle: {
-                color: '#b9a449'
-              }
-            },
-            {
-              name: '金天翮《芦墟晓发》',
-              value: 1,
-              itemStyle: {
-                color: '#899893'
-              }
-            },
-            {
-              name: '高旭《避暑小石川植物园中》',
-              value: 1,
-              itemStyle: {
-                color: '#a1743b'
-              }
-            }
-          ]
-        },
-        {
-          name: '宗教哲理 希言自然',
-          itemStyle: {
-            color: '#be8663'
-          },
-          children: [
-            {
-              name: '贝青乔《觉海寺探桂》',
-              value: 1,
-              itemStyle: {
-                color: '#b9a449'
-              }
-            },
-            {
-              name: '翁同龢《积雪发马兰峪》',
-              value: 1,
-              itemStyle: {
-                color: '#899893'
-              }
-            },
-            {
-              name: '江湜《晚登马鞍山》',
-              value: 1,
-              itemStyle: {
-                color: '#a1743b'
-              }
-            },
-            {
-              name: '吴茝《石壁》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            },
-            {
-              name: '陈去病《夏日过全福寺》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            },
-            {
-              name: '高旭《烟雨楼步痴佛韵》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            }
-          ]
-        },
-        {
-          name: '怜惜百姓 民瘼唯艰',
-          itemStyle: {
-            color: '#be8663'
-          },
-          children: [
-            {
-              name: '贝青乔《秦邮道中》',
-              value: 1,
-              itemStyle: {
-                color: '#b9a449'
-              }
-            },
-            {
-              name: '翁同龢《定福庄》',
-              value: 1,
-              itemStyle: {
-                color: '#899893'
-              }
-            },
-            {
-              name: '江湜《福宁》',
-              value: 1,
-              itemStyle: {
-                color: '#a1743b'
-              }
-            },
-            {
-              name: '吴茝《过郡城有感》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            },
-            {
-              name: '陈去病《瓜泾夜泊》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            },
-            {
-              name: '金天翮《快风阁》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            },
-            {
-              name: '曾朴《游南泡归途口占》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            },
-            {
-              name: '高旭《苏州纪游诗》',
-              value: 1,
-              itemStyle: {
-                color: '#894810'
-              }
-            }
-          ]
-        },
-        {
-          name: '羁旅流连 思念家乡',
-          itemStyle: {
-            color: '#ddaf61'
-          },
-          children: [
-            {
-              name: '贝青乔《旅感》',
-              value: 1,
-              itemStyle: {
-                color: '#b7906f'
-              }
-            },
-            {
-              name: '翁同龢《次韵度卢沟》',
-              value: 1,
-              itemStyle: {
-                color: '#eb9d5f'
-              }
-            },
-            {
-              name: '吴茝《登舻》',
-              value: 1,
-              itemStyle: {
-                color: '#eb9d5f'
-              }
-            },
-            {
-              name: '陈去病《晚步河西桥》',
-              value: 1,
-              itemStyle: {
-                color: '#eb9d5f'
-              }
-            },
-            {
-              name: '高旭《游爱宕山》',
-              value: 1,
-              itemStyle: {
-                color: '#eb9d5f'
-              }
-            }
-          ]
-        }
-      ]
-    },
+
     {
       name: '即事感怀',
       itemStyle: {

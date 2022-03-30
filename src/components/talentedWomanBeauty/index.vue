@@ -11,18 +11,20 @@
         <span>{{ item.name }}</span>
       </div>
     </div>
-    <transition name="detail" mode="out-in">
-      <div class="talented-detail" ref="detail">
-        <p
-          v-for="(item, index) in nowDetail"
-          :key="item.node"
-          :class="item.class"
-          :data-index="index"
-        >
-          {{ item.node }}
-        </p>
-      </div>
-    </transition>
+    <div class="text">
+      <transition name="detail" mode="out-in">
+        <div class="talented-detail" ref="detail">
+          <p
+            v-for="(item, index) in nowDetail"
+            :key="item.node"
+            :class="item.class"
+            :data-index="index"
+          >
+            {{ item.node }}
+          </p>
+        </div>
+      </transition>
+    </div>
     <audio src="../../assets/audio/0.mp3" id="audio" ref="audio"></audio>
   </div>
 </template>

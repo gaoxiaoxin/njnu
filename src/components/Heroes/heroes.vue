@@ -107,7 +107,6 @@ export default {
 <style scoped lang="less">
 .heroes {
   width: 100%;
-  margin-bottom: 200px;
   display: flex;
   height: 700px;
   background-image: url(../../assets/img/heroes.png),

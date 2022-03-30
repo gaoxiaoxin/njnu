@@ -1,5 +1,16 @@
 <template>
-  <div class="index" ref="sunburst"></div>
+  <div class="sun">
+    <div class="sun_text">
+      <div class="ps">
+        <p>江南天地日倾覆，况说区区万柳溪</p>
+        <p>
+          这些受过良好教育的知识分子们，就更加直接地面对黍离之悲，接受内心的考验，在风雨飘摇下，所接受的圣人之言成了最无力的图腾，他们身为一介书生，如何探索出路，如何坚守道义，与泥沙俱下或是不与时移，纷繁错杂的道路摆在他们面前。更多时候，如何生存这一问题更是直接困扰着文人一生。
+        </p>
+        <p>青萍之末，安能苟全？</p>
+      </div>
+    </div>
+    <div class="index" ref="sunburst"></div>
+  </div>
 </template>
 
 <script>
@@ -15,8 +26,8 @@ export default {
   methods: {
     addChart() {
       var myChart = echarts.init(this.$refs.sunburst, null, {
-        width: 800,
-        height: 1000,
+        width: 1200,
+        height: 1200,
       });
       const colors = ["#FFAE57", "#FF7853", "#EA5151", "#CC3F57", "#9A2555"];
       const bgColor = "transparent";
@@ -107,6 +118,27 @@ export default {
 .index {
   width: 100%;
   height: 100%;
-  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ::v-deep canvas {
+    transform: scale(0.9);
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+.sun_text {
+  width: 100%;
+  height: 550px;
+  background-image: url(../../assets/img/42.png);
+  background-repeat: no-repeat;
+  background-size: 500px 300px;
+  background-position: right top;
+  display: flex;
+  justify-content: center;
+  .ps {
+    margin-top: 150px;
+    width: calc(100vw - 300px);
+  }
 }
 </style>
