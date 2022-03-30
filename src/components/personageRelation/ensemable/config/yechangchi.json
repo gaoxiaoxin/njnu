@@ -1,0 +1,366 @@
+{
+  "nodes": [
+    {
+      "id": 7,
+      "name": "叶昌炽",
+      "symbolSize": 20,
+      "x": 0,
+      "y": 0,
+      "value": "本人",
+      "category": 0
+    },
+    {
+      "id": "7-0",
+      "name": "叶南发",
+      "symbolSize": 10,
+      "value": "高祖",
+      "category": 1,
+      "x": -116,
+      "y": 95.09994742374992
+    },
+    {
+      "id": "7-1",
+      "name": "叶永源",
+      "symbolSize": 10,
+      "value": "曾祖",
+      "category": 1,
+      "x": -74,
+      "y": -130.47605144240072
+    },
+    {
+      "id": "7-2",
+      "name": "叶秀荃",
+      "symbolSize": 10,
+      "value": "祖父",
+      "category": 1,
+      "x": 34,
+      "y": 146.0958589419974
+    },
+    {
+      "id": "7-3",
+      "name": "叶树荣",
+      "symbolSize": 10,
+      "value": "叔父",
+      "category": 1,
+      "x": 2,
+      "y": -149.9866660740214
+    },
+    {
+      "id": "7-4",
+      "name": "叶震荣",
+      "symbolSize": 10,
+      "value": "父亲",
+      "category": 1,
+      "x": 114,
+      "y": 97.48846085563153
+    },
+    {
+      "id": "7-5",
+      "name": "李氏",
+      "symbolSize": 10,
+      "value": "母亲",
+      "category": 1,
+      "x": -72,
+      "y": -131.59027319676784
+    },
+    {
+      "id": "7-6",
+      "name": "昌言",
+      "symbolSize": 10,
+      "value": "弟）",
+      "category": 1,
+      "x": 87,
+      "y": 122.19247112649781
+    },
+    {
+      "id": "7-7",
+      "name": "叶昌骏",
+      "symbolSize": 10,
+      "value": "堂弟",
+      "category": 1,
+      "x": 19,
+      "y": -148.79180084937477
+    },
+    {
+      "id": "7-8",
+      "name": "王氏",
+      "symbolSize": 10,
+      "value": "妻子",
+      "category": 1,
+      "x": -120,
+      "y": 90
+    },
+    {
+      "id": "7-9",
+      "name": "王鼎元",
+      "symbolSize": 10,
+      "value": "岳父",
+      "category": 1,
+      "x": -36,
+      "y": -145.61593319413916
+    },
+    {
+      "id": "7-10",
+      "name": "叶恭诜",
+      "symbolSize": 10,
+      "value": "长子",
+      "category": 1,
+      "x": -32,
+      "y": 146.54692081377897
+    },
+    {
+      "id": "7-11",
+      "name": "叶恭谌",
+      "symbolSize": 10,
+      "value": "次子",
+      "category": 1,
+      "x": 44,
+      "y": -143.4015341619468
+    },
+    {
+      "id": "7-12",
+      "name": "叶恭諟",
+      "symbolSize": 10,
+      "value": "三子",
+      "category": 1,
+      "x": 79,
+      "y": 127.51078385768005
+    },
+    {
+      "id": "7-13",
+      "name": "冯校邠",
+      "symbolSize": 10,
+      "value": "师长",
+      "category": 2,
+      "x": 46,
+      "y": 142.772546380598
+    },
+    {
+      "id": "7-14",
+      "name": "曹元弼",
+      "symbolSize": 10,
+      "value": "学生",
+      "category": 2,
+      "x": -14,
+      "y": -149.34523762075577
+    },
+    {
+      "id": "7-15",
+      "name": "秦绶章",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 286,
+      "y": 90.57593499379402
+    },
+    {
+      "id": "7-16",
+      "name": "冯桂芬",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -147,
+      "y": -261.5167298663701
+    },
+    {
+      "id": "7-17",
+      "name": "管礼耕",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -88,
+      "y": 286.8030683238936
+    },
+    {
+      "id": "7-18",
+      "name": "王颂蔚",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -125,
+      "y": -272.71780286589285
+    },
+    {
+      "id": "7-19",
+      "name": "叶曼卿",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 1,
+      "y": 299.99833332870367
+    },
+    {
+      "id": "7-20",
+      "name": "唐景崧",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 242,
+      "y": -177.30200224475752
+    },
+    {
+      "id": "7-21",
+      "name": "蒋丹如",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 239,
+      "y": 181.32567385784066
+    },
+    {
+      "id": "7-22",
+      "name": "刘传祁",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 58,
+      "y": -294.33993952571234
+    },
+    {
+      "id": "7-23",
+      "name": "刘传福",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 132,
+      "y": 269.3993318477238
+    },
+    {
+      "id": "7-24",
+      "name": "潘祖荫",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -177,
+      "y": -242.22097349321342
+    },
+    {
+      "id": "7-25",
+      "name": "潘祖年",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 179,
+      "y": 240.74675491063218
+    },
+    {
+      "id": "7-26",
+      "name": "缪荃孙",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 26,
+      "y": -298.8712097208428
+    }
+  ],
+  "links": [
+    {
+      "source": "7",
+      "target": "7-0"
+    },
+    {
+      "source": "7",
+      "target": "7-1"
+    },
+    {
+      "source": "7",
+      "target": "7-2"
+    },
+    {
+      "source": "7",
+      "target": "7-3"
+    },
+    {
+      "source": "7",
+      "target": "7-4"
+    },
+    {
+      "source": "7",
+      "target": "7-5"
+    },
+    {
+      "source": "7",
+      "target": "7-6"
+    },
+    {
+      "source": "7",
+      "target": "7-7"
+    },
+    {
+      "source": "7",
+      "target": "7-8"
+    },
+    {
+      "source": "7",
+      "target": "7-9"
+    },
+    {
+      "source": "7",
+      "target": "7-10"
+    },
+    {
+      "source": "7",
+      "target": "7-11"
+    },
+    {
+      "source": "7",
+      "target": "7-12"
+    },
+    {
+      "source": "7",
+      "target": "7-13"
+    },
+    {
+      "source": "7",
+      "target": "7-14"
+    },
+    {
+      "source": "7",
+      "target": "7-15"
+    },
+    {
+      "source": "7",
+      "target": "7-16"
+    },
+    {
+      "source": "7",
+      "target": "7-17"
+    },
+    {
+      "source": "7",
+      "target": "7-18"
+    },
+    {
+      "source": "7",
+      "target": "7-19"
+    },
+    {
+      "source": "7",
+      "target": "7-20"
+    },
+    {
+      "source": "7",
+      "target": "7-21"
+    },
+    {
+      "source": "7",
+      "target": "7-22"
+    },
+    {
+      "source": "7",
+      "target": "7-23"
+    },
+    {
+      "source": "7",
+      "target": "7-24"
+    },
+    {
+      "source": "7",
+      "target": "7-25"
+    },
+    {
+      "source": "7",
+      "target": "7-26"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "李根源",
+      "symbolSize": 60,
+      "x": 0,
+      "y": 0,
+      "value": "----",
+      "category": 0
+    },
+    {
+      "id": "0-1",
+      "name": "李大茂",
+      "symbolSize": 30,
+      "x": -439.30386,
+      "y": 229.06424,
+      "value": "父亲",
+      "category": 1
+    },
+    {
+      "id": "0-2",
+      "name": "阕观贞",
+      "symbolSize": 25,
+      "x": -317.26337,
+      "y": 406.03506,
+      "value": "母亲",
+      "category": 1
+    },
+    {
+      "id": "0-3",
+      "name": "李根沄",
+      "symbolSize": 20,
+      "x": -332.6012,
+      "y": 485.16974,
+      "value": "二弟",
+      "category": 1
+    },
+    {
+      "id": "0-4",
+      "name": "李根先",
+      "symbolSize": 20,
+      "x": -382.69568,
+      "y": 475.09113,
+      "value": "堂弟",
+      "category": 1
+    },
+    {
+      "id": "0-5",
+      "name": "马树兰",
+      "symbolSize": 25,
+      "x": -320.384,
+      "y": 287.17325,
+      "value": "夫人",
+      "category": 1
+    },
+    {
+      "id": "0-6",
+      "name": "李希纲",
+      "symbolSize": 23,
+      "x": -344.39832,
+      "y": 451.16772,
+      "value": "儿子",
+      "category": 1
+    },
+    {
+      "id": "0-7",
+      "name": "李希膺",
+      "symbolSize": 23,
+      "x": -289.34107,
+      "y": 334.56128,
+      "value": "儿子",
+      "category": 1
+    },
+    {
+      "id": "0-8",
+      "name": "李挹芳",
+      "symbolSize": 23,
+      "x": -439.77908,
+      "y": 484.69139,
+      "value": "女儿",
+      "category": 1
+    },
+    {
+      "id": "0-9",
+      "name": "李希泌",
+      "symbolSize": 23,
+      "x": -500,
+      "y": 378.55301,
+      "value": "儿子",
+      "category": 1
+    },
+    {
+      "id": "0-10",
+      "name": "樾村先生",
+      "symbolSize": 20,
+      "x": 288.05168,
+      "y": -161.99768,
+      "value": "师长",
+      "category": 2
+    },
+    {
+      "id": "0-11",
+      "name": "赵式铭",
+      "symbolSize": 20,
+      "x": 217.701546,
+      "y": -102.55057,
+      "value": "同门",
+      "category": 2
+    },
+    {
+      "id": "0-12",
+      "name": "周钟岳",
+      "symbolSize": 20,
+      "x": 285.2226,
+      "y": -393.5572,
+      "value": "同门",
+      "category": 2
+    },
+    {
+      "id": "0-13",
+      "name": "杨耿光",
+      "symbolSize": 20,
+      "x": 216.55884,
+      "y": -393.98975,
+      "value": "学兄",
+      "category": 2
+    },
+    {
+      "id": "0-14",
+      "name": "赵端礼",
+      "symbolSize": 20,
+      "x": 194.79382,
+      "y": -453.57944,
+      "value": "师长",
+      "category": 2
+    },
+    {
+      "id": "0-15",
+      "name": "陈荣昌",
+      "symbolSize": 20,
+      "x": 115.1624,
+      "y": -300,
+      "value": "师长",
+      "category": 2
+    },
+    {
+      "id": "0-16",
+      "name": "朱德",
+      "symbolSize": 20,
+      "x": 715.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-17",
+      "name": "黄娄生",
+      "symbolSize": 20,
+      "x": 555.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-18",
+      "name": "章太炎",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-19",
+      "name": "金松岑",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 100,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-20",
+      "name": "陈衍(石遗)",
+      "symbolSize": 20,
+      "x": 615.1624,
+      "y": 110,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-21",
+      "name": "范烟桥",
+      "symbolSize": 20,
+      "x": 715.1624,
+      "y": 120,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-22",
+      "name": "吴颖芝",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 180,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-23",
+      "name": "张纯鸥",
+      "symbolSize": 20,
+      "x": 605.1624,
+      "y": 150,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-24",
+      "name": "赵星海",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-25",
+      "name": "梁启超",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 450,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-26",
+      "name": "岑春煊",
+      "symbolSize": 20,
+      "x": 415.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-27",
+      "name": "蔡锷",
+      "symbolSize": 20,
+      "x": 315.1624,
+      "y": 300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-28",
+      "name": "陈宧",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-29",
+      "name": "陈炯明",
+      "symbolSize": 20,
+      "x": 615.1624,
+      "y": 500,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-30",
+      "name": "沈云沛",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-31",
+      "name": "陈炳焜",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 200,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-32",
+      "name": "陈果夫",
+      "symbolSize": 20,
+      "x": 755.1624,
+      "y": 500,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-33",
+      "name": "车震",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 600,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-34",
+      "name": "陈树藩",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 600,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-35",
+      "name": "葛敬恩",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 550,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-36",
+      "name": "吕公望",
+      "symbolSize": 20,
+      "x": 915.1624,
+      "y": 500,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-37",
+      "name": "徐连胜",
+      "symbolSize": 20,
+      "x": 875.1624,
+      "y": 100,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-38",
+      "name": "李烈钧",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 150,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-39",
+      "name": "罗佩金",
+      "symbolSize": 20,
+      "x": 900.1624,
+      "y": 300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-40",
+      "name": "陆建章",
+      "symbolSize": 20,
+      "x": 915.1624,
+      "y": 500,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-41",
+      "name": "鹿钟麟",
+      "symbolSize": 20,
+      "x": 315.1624,
+      "y": 600,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-42",
+      "name": "马鉁",
+      "symbolSize": 20,
+      "x": 955.1624,
+      "y": 200,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "0-43",
+      "name": "马超俊",
+      "symbolSize": 20,
+      "x": 315.1624,
+      "y": 100,
+      "value": "友人",
+      "category": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "0-1"
+    },
+    {
+      "source": "0",
+      "target": "0-2"
+    },
+    {
+      "source": "0",
+      "target": "0-3"
+    },
+    {
+      "source": "0",
+      "target": "0-4"
+    },
+    {
+      "source": "0",
+      "target": "0-5"
+    },
+    {
+      "source": "0",
+      "target": "0-6"
+    },
+    {
+      "source": "0",
+      "target": "0-7"
+    },
+    {
+      "source": "0",
+      "target": "0-8"
+    },
+    {
+      "source": "0",
+      "target": "0-9"
+    },
+    {
+      "source": "0",
+      "target": "0-10"
+    },
+    {
+      "source": "0",
+      "target": "0-11"
+    },
+    {
+      "source": "0",
+      "target": "0-12"
+    },
+    {
+      "source": "0",
+      "target": "0-11"
+    },
+    {
+      "source": "0",
+      "target": "0-14"
+    },
+    {
+      "source": "0",
+      "target": "0-15"
+    },
+    {
+      "source": "0",
+      "target": "0-16"
+    },
+    {
+      "source": "0",
+      "target": "0-17"
+    },
+    {
+      "source": "0",
+      "target": "0-18"
+    },
+    {
+      "source": "0",
+      "target": "0-19"
+    },
+    {
+      "source": "0",
+      "target": "0-20"
+    },
+    {
+      "source": "0",
+      "target": "0-21"
+    },
+    {
+      "source": "0",
+      "target": "0-22"
+    },
+    {
+      "source": "0",
+      "target": "0-23"
+    },
+    {
+      "source": "0",
+      "target": "0-24"
+    },
+    {
+      "source": "0",
+      "target": "0-25"
+    },
+    {
+      "source": "0",
+      "target": "0-26"
+    },
+    {
+      "source": "0",
+      "target": "0-27"
+    },
+    {
+      "source": "0",
+      "target": "0-28"
+    },
+    {
+      "source": "0",
+      "target": "0-29"
+    },
+    {
+      "source": "0",
+      "target": "0-30"
+    },
+    {
+      "source": "0",
+      "target": "0-31"
+    },
+    {
+      "source": "0",
+      "target": "0-32"
+    },
+    {
+      "source": "0",
+      "target": "0-33"
+    },
+    {
+      "source": "0",
+      "target": "0-34"
+    },
+    {
+      "source": "0",
+      "target": "0-35"
+    },
+    {
+      "source": "0",
+      "target": "0-36"
+    },
+    {
+      "source": "0",
+      "target": "0-37"
+    },
+    {
+      "source": "0",
+      "target": "0-38"
+    },
+    {
+      "source": "0",
+      "target": "0-39"
+    },
+    {
+      "source": "0",
+      "target": "0-40"
+    },
+    {
+      "source": "0",
+      "target": "0-41"
+    },
+    {
+      "source": "0",
+      "target": "0-42"
+    },
+    {
+      "source": "0",
+      "target": "0-43"
+    }
+  ],
+  "categories": [
+    {
+      "name": "本人"
+    },
+    {
+      "name": "亲族"
+    },
+    {
+      "name": "师生"
+    },
+    {
+      "name": "友人"
+    }
+  ]
+}

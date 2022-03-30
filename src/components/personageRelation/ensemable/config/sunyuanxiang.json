@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": 11,
+      "name": "孙原湘",
+      "symbolSize": 30,
+      "x": 0,
+      "y": 0,
+      "value": "本人",
+      "category": 0
+    },
+    {
+      "id": "11-2",
+      "name": "席佩兰",
+      "symbolSize": 15,
+      "value": "妻子",
+      "category": 3,
+      "x": 280,
+      "y": 107.70329614269008
+    },
+    {
+      "id": "11-3",
+      "name": "袁枚",
+      "symbolSize": 15,
+      "value": "师长",
+      "category": 3,
+      "x": 288,
+      "y": -84
+    },
+    {
+      "id": "11-4",
+      "name": "王韵梅",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -132,
+      "y": 269.3993318477238
+    },
+    {
+      "id": "11-5",
+      "name": "季兰韵",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 53,
+      "y": -295.2812218885583
+    },
+    {
+      "id": "11-6",
+      "name": "汪中",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -59,
+      "y": 294.1411225925406
+    },
+    {
+      "id": "11-7",
+      "name": "法式善",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 134,
+      "y": -268.41013393685415
+    },
+    {
+      "id": "11-8",
+      "name": "赵翼",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 8,
+      "y": 299.893314363625
+    },
+    {
+      "id": "11-9",
+      "name": "洪亮吉",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -151,
+      "y": -259.22769913726427
+    },
+    {
+      "id": "11-10",
+      "name": "孙星衍",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 75,
+      "y": 290.4737509655563
+    }
+  ],
+  "links": [
+    {
+      "source": "11",
+      "target": "11-0"
+    },
+    {
+      "source": "11",
+      "target": "11-1"
+    },
+    {
+      "source": "11",
+      "target": "11-2"
+    },
+    {
+      "source": "11",
+      "target": "11-3"
+    },
+    {
+      "source": "11",
+      "target": "11-4"
+    },
+    {
+      "source": "11",
+      "target": "11-5"
+    },
+    {
+      "source": "11",
+      "target": "11-6"
+    },
+    {
+      "source": "11",
+      "target": "11-7"
+    },
+    {
+      "source": "11",
+      "target": "11-8"
+    },
+    {
+      "source": "11",
+      "target": "11-9"
+    },
+    {
+      "source": "11",
+      "target": "11-10"
+    }
+  ]
+}

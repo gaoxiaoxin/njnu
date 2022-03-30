@@ -1,0 +1,311 @@
+{
+  "nodes": [
+    {
+      "id": 8,
+      "name": "潘祖荫",
+      "symbolSize": 20,
+      "x": 0,
+      "y": 0,
+      "value": "本人",
+      "category": 0
+    },
+    {
+      "id": "8-0",
+      "name": "潘世璜",
+      "symbolSize": 10,
+      "value": "叔祖",
+      "category": 1,
+      "x": 88,
+      "y": 121.47427711248172
+    },
+    {
+      "id": "8-1",
+      "name": "潘世恩",
+      "symbolSize": 10,
+      "value": "祖父",
+      "category": 1,
+      "x": 94,
+      "y": -116.89311356961966
+    },
+    {
+      "id": "8-2",
+      "name": "潘曾沂",
+      "symbolSize": 10,
+      "value": "大伯",
+      "category": 1,
+      "x": -26,
+      "y": 147.7294825009551
+    },
+    {
+      "id": "8-3",
+      "name": "潘曾莹",
+      "symbolSize": 10,
+      "value": "二伯",
+      "category": 1,
+      "x": -88,
+      "y": -121.47427711248172
+    },
+    {
+      "id": "8-4",
+      "name": "潘曾绶",
+      "symbolSize": 10,
+      "value": "父亲",
+      "category": 1,
+      "x": 91,
+      "y": 119.24344845734713
+    },
+    {
+      "id": "8-5",
+      "name": "潘曾玮",
+      "symbolSize": 10,
+      "value": "四叔",
+      "category": 1,
+      "x": 8,
+      "y": -149.78651474682226
+    },
+    {
+      "id": "8-6",
+      "name": "潘祖年",
+      "symbolSize": 10,
+      "value": "弟弟",
+      "category": 1,
+      "x": 91,
+      "y": 119.24344845734713
+    },
+    {
+      "id": "8-7",
+      "name": "潘祖同",
+      "symbolSize": 10,
+      "value": "从兄",
+      "category": 1,
+      "x": 16,
+      "y": -149.14422550001726
+    },
+    {
+      "id": "8-8",
+      "name": {
+        "relation": "潘遵祁"
+      },
+      "symbolSize": 10,
+      "value": "潘遵祁",
+      "category": 1,
+      "x": 40,
+      "y": 144.5683229480096
+    },
+    {
+      "id": "8-9",
+      "name": {
+        "relation": "潘奕隽"
+      },
+      "symbolSize": 10,
+      "value": "潘奕隽",
+      "category": 1,
+      "x": 12,
+      "y": -149.51922953252534
+    },
+    {
+      "id": "8-10",
+      "name": {
+        "relation": "潘榕皋"
+      },
+      "symbolSize": 10,
+      "value": "潘榕皋",
+      "category": 1,
+      "x": -21,
+      "y": 148.52272553383875
+    },
+    {
+      "id": "8-11",
+      "name": {
+        "relation": "潘希甫"
+      },
+      "symbolSize": 10,
+      "value": "潘希甫",
+      "category": 1,
+      "x": 109,
+      "y": -103.04853225543778
+    },
+    {
+      "id": "8-12",
+      "name": {
+        "relation": ""
+      },
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 2,
+      "x": 31,
+      "y": 146.76171162806736
+    },
+    {
+      "id": "8-13",
+      "name": "叶昌炽",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 289,
+      "y": 80.49223565040295
+    },
+    {
+      "id": "8-14",
+      "name": "左宗棠",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -30,
+      "y": -298.496231131986
+    },
+    {
+      "id": "8-15",
+      "name": "沈家本",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 268,
+      "y": 134.81839637082174
+    },
+    {
+      "id": "8-16",
+      "name": "左锡嘉",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -187,
+      "y": -234.58687090287043
+    },
+    {
+      "id": "8-17",
+      "name": "俞樾",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -289,
+      "y": 80.49223565040295
+    },
+    {
+      "id": "8-18",
+      "name": "张之洞",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -114,
+      "y": -277.4959459163323
+    },
+    {
+      "id": "8-19",
+      "name": "刘喜海",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -191,
+      "y": 231.34173856007914
+    },
+    {
+      "id": "8-20",
+      "name": "李慈铭",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 78,
+      "y": -289.68258490975944
+    },
+    {
+      "id": "8-21",
+      "name": "赵之谦",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 234,
+      "y": 187.7338541659442
+    }
+  ],
+  "links": [
+    {
+      "source": "8",
+      "target": "8-0"
+    },
+    {
+      "source": "8",
+      "target": "8-1"
+    },
+    {
+      "source": "8",
+      "target": "8-2"
+    },
+    {
+      "source": "8",
+      "target": "8-3"
+    },
+    {
+      "source": "8",
+      "target": "8-4"
+    },
+    {
+      "source": "8",
+      "target": "8-5"
+    },
+    {
+      "source": "8",
+      "target": "8-6"
+    },
+    {
+      "source": "8",
+      "target": "8-7"
+    },
+    {
+      "source": "8",
+      "target": "8-8"
+    },
+    {
+      "source": "8",
+      "target": "8-9"
+    },
+    {
+      "source": "8",
+      "target": "8-10"
+    },
+    {
+      "source": "8",
+      "target": "8-11"
+    },
+    {
+      "source": "8",
+      "target": "8-12"
+    },
+    {
+      "source": "8",
+      "target": "8-13"
+    },
+    {
+      "source": "8",
+      "target": "8-14"
+    },
+    {
+      "source": "8",
+      "target": "8-15"
+    },
+    {
+      "source": "8",
+      "target": "8-16"
+    },
+    {
+      "source": "8",
+      "target": "8-17"
+    },
+    {
+      "source": "8",
+      "target": "8-18"
+    },
+    {
+      "source": "8",
+      "target": "8-19"
+    },
+    {
+      "source": "8",
+      "target": "8-20"
+    },
+    {
+      "source": "8",
+      "target": "8-21"
+    }
+  ]
+}

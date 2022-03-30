@@ -1,0 +1,459 @@
+{
+  "nodes": [
+    {
+      "id": 6,
+      "name": "曾朴",
+      "symbolSize": 20,
+      "x": 0,
+      "y": 0,
+      "value": "本人",
+      "category": 0
+    },
+    {
+      "id": "6-0",
+      "name": "汪鸣(銮郋亭)",
+      "symbolSize": 10,
+      "value": "外舅",
+      "category": 1,
+      "x": 61,
+      "y": 137.03649149040558
+    },
+    {
+      "id": "6-1",
+      "name": "曾之撰",
+      "symbolSize": 10,
+      "value": "父亲",
+      "category": 1,
+      "x": 16,
+      "y": -149.14422550001726
+    },
+    {
+      "id": "6-2",
+      "name": "曾耀仲",
+      "symbolSize": 10,
+      "value": "次子",
+      "category": 1,
+      "x": 110,
+      "y": 101.9803902718557
+    },
+    {
+      "id": "6-3",
+      "name": "曾虚白",
+      "symbolSize": 10,
+      "value": "长子",
+      "category": 1,
+      "x": -16,
+      "y": -149.14422550001726
+    },
+    {
+      "id": "6-4",
+      "name": "曾光叔",
+      "symbolSize": 10,
+      "value": "子",
+      "category": 1,
+      "x": -15,
+      "y": 149.248115565993
+    },
+    {
+      "id": "6-5",
+      "name": "曾叔懋",
+      "symbolSize": 10,
+      "value": "子",
+      "category": 1,
+      "x": -90,
+      "y": -120
+    },
+    {
+      "id": "6-6",
+      "name": "曾熹",
+      "symbolSize": 10,
+      "value": "子",
+      "category": 1,
+      "x": -122,
+      "y": 87.26969691708571
+    },
+    {
+      "id": "6-7",
+      "name": {
+        "relation": ""
+      },
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 2,
+      "x": 124,
+      "y": 84.40379138403677
+    },
+    {
+      "id": "6-8",
+      "name": "戴子辉",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 182,
+      "y": 238.48689691469426
+    },
+    {
+      "id": "6-9",
+      "name": "李子钧",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 244,
+      "y": -174.53939383417142
+    },
+    {
+      "id": "6-10",
+      "name": "黄雪珊",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 9,
+      "y": 299.86496961132354
+    },
+    {
+      "id": "6-11",
+      "name": "沈北山",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 165,
+      "y": -250.549396327351
+    },
+    {
+      "id": "6-12",
+      "name": "丁国钧",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 220,
+      "y": 203.9607805437114
+    },
+    {
+      "id": "6-13",
+      "name": "张鸿",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -149,
+      "y": -260.38241108031855
+    },
+    {
+      "id": "6-14",
+      "name": "郑同康",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 66,
+      "y": 292.6499615581728
+    },
+    {
+      "id": "6-15",
+      "name": "薛季诚",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -227,
+      "y": -196.14025593946798
+    },
+    {
+      "id": "6-16",
+      "name": "黄蝨穹",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 165,
+      "y": 250.549396327351
+    },
+    {
+      "id": "6-17",
+      "name": "孙木疆",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 49,
+      "y": -295.97128239070764
+    },
+    {
+      "id": "6-18",
+      "name": "胡炳益",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 107,
+      "y": 294.5352270951643
+    },
+    {
+      "id": "6-19",
+      "name": "翁同龢",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -64,
+      "y": -293.09384162755794
+    },
+    {
+      "id": "6-20",
+      "name": "何威凤",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -94,
+      "y": 284.89296235603996
+    },
+    {
+      "id": "6-21",
+      "name": "宗仰上人",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -168,
+      "y": -248.54778212649575
+    },
+    {
+      "id": "6-22",
+      "name": "蒋士骥（石枫）",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 143,
+      "y": 263.7252358042362
+    },
+    {
+      "id": "6-23",
+      "name": "陆云孙",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -207,
+      "y": -217.14281015037085
+    },
+    {
+      "id": "6-24",
+      "name": "翁炯孙",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 230,
+      "y": 192.61360284258222
+    },
+    {
+      "id": "6-25",
+      "name": "谭嗣同",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 255,
+      "y": -158.03480629279107
+    },
+    {
+      "id": "6-26",
+      "name": "林旭",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 3,
+      "y": 299.98499962498124
+    },
+    {
+      "id": "6-27",
+      "name": "唐才常",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 256,
+      "y": -156.40971836813722
+    },
+    {
+      "id": "6-28",
+      "name": "杨深秀",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -200,
+      "y": 223.60679774997897
+    },
+    {
+      "id": "6-29",
+      "name": "丁初我",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -271,
+      "y": -128.68177804180357
+    },
+    {
+      "id": "6-30",
+      "name": "徐念慈",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 23,
+      "y": 299.1170339515956
+    },
+    {
+      "id": "6-31",
+      "name": "黄人",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -42,
+      "y": -297.0454510676775
+    },
+    {
+      "id": "6-32",
+      "name": "庞壁子",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 238,
+      "y": 182.63625050903778
+    },
+    {
+      "id": "6-33",
+      "name": "黄宗仰",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -93,
+      "y": -285.2209669712239
+    }
+  ],
+  "links": [
+    {
+      "source": "6",
+      "target": "6-0"
+    },
+    {
+      "source": "6",
+      "target": "6-1"
+    },
+    {
+      "source": "6",
+      "target": "6-2"
+    },
+    {
+      "source": "6",
+      "target": "6-3"
+    },
+    {
+      "source": "6",
+      "target": "6-4"
+    },
+    {
+      "source": "6",
+      "target": "6-5"
+    },
+    {
+      "source": "6",
+      "target": "6-6"
+    },
+    {
+      "source": "6",
+      "target": "6-7"
+    },
+    {
+      "source": "6",
+      "target": "6-8"
+    },
+    {
+      "source": "6",
+      "target": "6-9"
+    },
+    {
+      "source": "6",
+      "target": "6-10"
+    },
+    {
+      "source": "6",
+      "target": "6-11"
+    },
+    {
+      "source": "6",
+      "target": "6-12"
+    },
+    {
+      "source": "6",
+      "target": "6-13"
+    },
+    {
+      "source": "6",
+      "target": "6-14"
+    },
+    {
+      "source": "6",
+      "target": "6-15"
+    },
+    {
+      "source": "6",
+      "target": "6-16"
+    },
+    {
+      "source": "6",
+      "target": "6-17"
+    },
+    {
+      "source": "6",
+      "target": "6-18"
+    },
+    {
+      "source": "6",
+      "target": "6-19"
+    },
+    {
+      "source": "6",
+      "target": "6-20"
+    },
+    {
+      "source": "6",
+      "target": "6-21"
+    },
+    {
+      "source": "6",
+      "target": "6-22"
+    },
+    {
+      "source": "6",
+      "target": "6-23"
+    },
+    {
+      "source": "6",
+      "target": "6-24"
+    },
+    {
+      "source": "6",
+      "target": "6-25"
+    },
+    {
+      "source": "6",
+      "target": "6-26"
+    },
+    {
+      "source": "6",
+      "target": "6-27"
+    },
+    {
+      "source": "6",
+      "target": "6-28"
+    },
+    {
+      "source": "6",
+      "target": "6-29"
+    },
+    {
+      "source": "6",
+      "target": "6-30"
+    },
+    {
+      "source": "6",
+      "target": "6-31"
+    },
+    {
+      "source": "6",
+      "target": "6-32"
+    },
+    {
+      "source": "6",
+      "target": "6-33"
+    }
+  ]
+}

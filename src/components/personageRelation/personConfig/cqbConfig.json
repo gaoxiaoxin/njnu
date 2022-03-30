@@ -1,0 +1,511 @@
+{
+  "nodes": [
+    {
+      "id": "3",
+      "name": "陈去病",
+      "symbolSize": 60,
+      "x": 0,
+      "y": 0,
+      "value": "本人",
+      "category": 0
+    },
+    {
+      "id": "3-1",
+      "name": "沈堞云",
+      "symbolSize": 30,
+      "x": -439.30386,
+      "y": 229.06424,
+      "value": "表兄",
+      "category": 1
+    },
+    {
+      "id": "3-2",
+      "name": "倪节孝君",
+      "symbolSize": 25,
+      "x": -317.26337,
+      "y": 406.03506,
+      "value": "母亲",
+      "category": 1
+    },
+    {
+      "id": "3-3",
+      "name": "诸杏庐",
+      "symbolSize": 20,
+      "x": -288.05168,
+      "y": 101.99768,
+      "value": "师长",
+      "category": 2
+    },
+    {
+      "id": "3-4",
+      "name": "宋琳",
+      "symbolSize": 20,
+      "x": -317.701546,
+      "y": -102.55057,
+      "value": "学生",
+      "category": 2
+    },
+    {
+      "id": "3-5",
+      "name": "金松岑",
+      "symbolSize": 20,
+      "x": -285.2226,
+      "y": -200.5572,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-6",
+      "name": "孙中山",
+      "symbolSize": 20,
+      "x": -176.55884,
+      "y": -200.98975,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-7",
+      "name": "秋瑾",
+      "symbolSize": 20,
+      "x": -94.79382,
+      "y": -253.57944,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-8",
+      "name": "柳詒徵",
+      "symbolSize": 20,
+      "x": 115.1624,
+      "y": -300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-9",
+      "name": "徐福",
+      "symbolSize": 20,
+      "x": -100.1624,
+      "y": 350,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-10",
+      "name": "宗素济",
+      "symbolSize": 20,
+      "x": 0.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-11",
+      "name": "瞿安",
+      "symbolSize": 20,
+      "x": 15.1624,
+      "y": 300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-12",
+      "name": "杨维斗",
+      "symbolSize": 20,
+      "x": 105.1624,
+      "y": -200,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-13",
+      "name": "李鸿章",
+      "symbolSize": 20,
+      "x": 115.1624,
+      "y": -110,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-14",
+      "name": "吴祝臣",
+      "symbolSize": 20,
+      "x": 115.1624,
+      "y": 220,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-15",
+      "name": "章太炎",
+      "symbolSize": 20,
+      "x": 15.1624,
+      "y": 180,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-16",
+      "name": "方古然(啸琴)",
+      "symbolSize": 20,
+      "x": 155.1624,
+      "y": 450,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-17",
+      "name": "李长蘅",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-18",
+      "name": "贺子吉",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 450,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-19",
+      "name": "陈费",
+      "symbolSize": 20,
+      "x": 415.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-20",
+      "name": "罗念庵",
+      "symbolSize": 20,
+      "x": 315.1624,
+      "y": 300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-21",
+      "name": "苏曼殊",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-22",
+      "name": "顾端木",
+      "symbolSize": 20,
+      "x": 615.1624,
+      "y": 500,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-23",
+      "name": "刘公旦",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 400,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-24",
+      "name": "钱彦林",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 200,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-25",
+      "name": "夏存古",
+      "symbolSize": 20,
+      "x": 755.1624,
+      "y": 500,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-26",
+      "name": "沈君墨",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 600,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-27",
+      "name": "傅钝根",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 600,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-28",
+      "name": "黄摩西",
+      "symbolSize": 20,
+      "x": 515.1624,
+      "y": 550,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-29",
+      "name": "徐子鸿",
+      "symbolSize": 20,
+      "x": 915.1624,
+      "y": 500,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-30",
+      "name": "柳亚子",
+      "symbolSize": 20,
+      "x": 875.1624,
+      "y": 100,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-31",
+      "name": "高旭",
+      "symbolSize": 20,
+      "x": 815.1624,
+      "y": 150,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-32",
+      "name": "徐自华",
+      "symbolSize": 20,
+      "x": 900.1624,
+      "y": 300,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-33",
+      "name": "吴芝瑛",
+      "symbolSize": 20,
+      "x": 915.1624,
+      "y": 500,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-34",
+      "name": "刘三",
+      "symbolSize": 20,
+      "x": 315.1624,
+      "y": 600,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-35",
+      "name": "刘廉卿",
+      "symbolSize": 20,
+      "x": 955.1624,
+      "y": 200,
+      "value": "友人",
+      "category": 3
+    },
+    {
+      "id": "3-36",
+      "name": "孔庚时",
+      "symbolSize": 20,
+      "x": 315.1624,
+      "y": 100,
+      "value": "友人",
+      "category": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "3",
+      "target": "3-0"
+    },
+    {
+      "source": "3",
+      "target": "3-1"
+    },
+    {
+      "source": "3",
+      "target": "3-2"
+    },
+    {
+      "source": "3",
+      "target": "3-3"
+    },
+    {
+      "source": "3",
+      "target": "3-4"
+    },
+    {
+      "source": "3",
+      "target": "3-5"
+    },
+    {
+      "source": "3",
+      "target": "3-6"
+    },
+    {
+      "source": "3",
+      "target": "3-7"
+    },
+    {
+      "source": "3",
+      "target": "3-8"
+    },
+    {
+      "source": "3",
+      "target": "3-9"
+    },
+    {
+      "source": "3",
+      "target": "3-10"
+    },
+    {
+      "source": "3",
+      "target": "3-11"
+    },
+    {
+      "source": "3",
+      "target": "3-12"
+    },
+    {
+      "source": "3",
+      "target": "3-13"
+    },
+    {
+      "source": "3",
+      "target": "3-14"
+    },
+    {
+      "source": "3",
+      "target": "3-15"
+    },
+    {
+      "source": "3",
+      "target": "3-16"
+    },
+    {
+      "source": "3",
+      "target": "3-17"
+    },
+    {
+      "source": "3",
+      "target": "3-18"
+    },
+    {
+      "source": "3",
+      "target": "3-19"
+    },
+    {
+      "source": "3",
+      "target": "3-20"
+    },
+    {
+      "source": "3",
+      "target": "3-21"
+    },
+    {
+      "source": "3",
+      "target": "3-22"
+    },
+    {
+      "source": "3",
+      "target": "3-23"
+    },
+    {
+      "source": "3",
+      "target": "3-24"
+    },
+    {
+      "source": "3",
+      "target": "3-25"
+    },
+    {
+      "source": "3",
+      "target": "3-26"
+    },
+    {
+      "source": "3",
+      "target": "3-27"
+    },
+    {
+      "source": "3",
+      "target": "3-28"
+    },
+    {
+      "source": "3",
+      "target": "3-29"
+    },
+    {
+      "source": "3",
+      "target": "3-30"
+    },
+    {
+      "source": "3",
+      "target": "3-31"
+    },
+    {
+      "source": "3",
+      "target": "3-32"
+    },
+    {
+      "source": "3",
+      "target": "3-33"
+    },
+    {
+      "source": "3",
+      "target": "3-34"
+    },
+    {
+      "source": "3",
+      "target": "3-35"
+    },
+    {
+      "source": "3",
+      "target": "3-36"
+    },
+    {
+      "source": "3",
+      "target": "3-37"
+    },
+    {
+      "source": "3",
+      "target": "3-38"
+    },
+    {
+      "source": "3",
+      "target": "3-39"
+    },
+    {
+      "source": "3",
+      "target": "3-40"
+    },
+    {
+      "source": "3",
+      "target": "3-41"
+    },
+    {
+      "source": "3",
+      "target": "3-42"
+    }
+  ]
+}

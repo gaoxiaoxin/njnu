@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "id": 9,
+      "name": "潘遵祁",
+      "symbolSize": 20,
+      "x": 0,
+      "y": 0,
+      "value": "本人",
+      "category": 0
+    },
+    {
+      "id": "9-0",
+      "name": "潘奕隽",
+      "symbolSize": 10,
+      "value": "祖父",
+      "category": 1,
+      "x": 42,
+      "y": 144
+    },
+    {
+      "id": "9-1",
+      "name": "潘世璜",
+      "symbolSize": 10,
+      "value": "父亲",
+      "category": 1,
+      "x": -35,
+      "y": -145.8595214581482
+    },
+    {
+      "id": "9-2",
+      "name": "潘榕皋",
+      "symbolSize": 10,
+      "value": "祖父",
+      "category": 1,
+      "x": 148,
+      "y": 24.413111231467404
+    },
+    {
+      "id": "9-3",
+      "name": "潘希甫",
+      "symbolSize": 10,
+      "value": "弟",
+      "category": 1,
+      "x": 97,
+      "y": -114.41590798486021
+    },
+    {
+      "id": "9-4",
+      "name": "汪氏",
+      "symbolSize": 10,
+      "value": "妻子",
+      "category": 1,
+      "x": -109,
+      "y": 103.04853225543778
+    },
+    {
+      "id": "9-5",
+      "name": "文恭公",
+      "symbolSize": 10,
+      "value": "从父",
+      "category": 1,
+      "x": 76,
+      "y": -129.3213052826177
+    },
+    {
+      "id": "9-6",
+      "name": "叶昌炽",
+      "symbolSize": 10,
+      "value": "门人",
+      "category": 2,
+      "x": -130,
+      "y": 74.83314773547883
+    },
+    {
+      "id": "9-7",
+      "name": "张际亮",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -66,
+      "y": 292.6499615581728
+    },
+    {
+      "id": "9-8",
+      "name": "杨沂孙",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -127,
+      "y": -271.7922000352475
+    },
+    {
+      "id": "9-9",
+      "name": "许鹤巢",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -231,
+      "y": 191.41316569139124
+    },
+    {
+      "id": "9-10",
+      "name": "章铁珊",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 188,
+      "y": -233.78622713923932
+    },
+    {
+      "id": "9-11",
+      "name": "缪小云",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -255,
+      "y": 158.03480629279107
+    },
+    {
+      "id": "9-12",
+      "name": "亢树滋",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": -259,
+      "y": -151.39022425506872
+    },
+    {
+      "id": "9-13",
+      "name": "吴云",
+      "symbolSize": 10,
+      "value": "友人",
+      "category": 3,
+      "x": 41,
+      "y": 297.18512748790107
+    }
+  ],
+  "links": [
+    {
+      "source": "9",
+      "target": "9-0"
+    },
+    {
+      "source": "9",
+      "target": "9-1"
+    },
+    {
+      "source": "9",
+      "target": "9-2"
+    },
+    {
+      "source": "9",
+      "target": "9-3"
+    },
+    {
+      "source": "9",
+      "target": "9-4"
+    },
+    {
+      "source": "9",
+      "target": "9-5"
+    },
+    {
+      "source": "9",
+      "target": "9-6"
+    },
+    {
+      "source": "9",
+      "target": "9-7"
+    },
+    {
+      "source": "9",
+      "target": "9-8"
+    },
+    {
+      "source": "9",
+      "target": "9-9"
+    },
+    {
+      "source": "9",
+      "target": "9-10"
+    },
+    {
+      "source": "9",
+      "target": "9-11"
+    },
+    {
+      "source": "9",
+      "target": "9-12"
+    },
+    {
+      "source": "9",
+      "target": "9-13"
+    }
+  ]
+}
