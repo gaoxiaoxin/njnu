@@ -19,9 +19,11 @@ p {
   text-indent: 2em;
   line-height: 1.8em;
   letter-spacing: 1px;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
   margin-bottom: 16px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 img {
   display: block;

@@ -27,7 +27,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -36,7 +36,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -45,7 +45,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -54,7 +54,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -63,7 +63,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -72,7 +72,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -81,7 +81,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -90,7 +90,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -99,7 +99,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -108,7 +108,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -117,7 +117,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#39c4bf",
+          color: "#95683f",
         },
       },
     },
@@ -126,7 +126,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -135,7 +135,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -144,7 +144,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -153,17 +153,16 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#2a1469",
+          color: "#ad9d86",
         },
       },
     },
-
     {
       name: "陈去病",
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#6ac439",
+          color: "#cf9b62",
         },
       },
     },
@@ -172,7 +171,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#f5c312",
+          color: "#773e37",
         },
       },
     },
@@ -181,7 +180,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#f56e12",
+          color: "#a28064",
         },
       },
     },
@@ -190,7 +189,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#f56e12",
+          color: "#c6bcb0",
         },
       },
     },
@@ -199,7 +198,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#f56e12",
+          color: "#83642e",
         },
       },
     },
@@ -208,7 +207,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#f56e12",
+          color: "#95683f",
         },
       },
     },
@@ -217,7 +216,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#f56e12",
+          color: "#ad9d86",
         },
       },
     },
@@ -226,7 +225,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#f56e12",
+          color: "#cf9b62",
         },
       },
     },
@@ -235,7 +234,7 @@ export default {
       symbolSize: 40,
       itemStyle: {
         normal: {
-          color: "#f56e12",
+          color: "#c6bcb0",
         },
       },
     },
@@ -244,7 +243,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -253,7 +252,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -262,7 +261,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -271,7 +270,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -280,7 +279,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -289,7 +288,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -298,7 +297,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -307,7 +306,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -316,7 +315,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -325,7 +324,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },
@@ -334,7 +333,7 @@ export default {
       symbolSize: 12,
       itemStyle: {
         normal: {
-          color: "#4e7eed",
+          color: "#fff",
         },
       },
     },

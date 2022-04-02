@@ -1,20 +1,21 @@
 <template>
-  <div class="heroes">
-    <div class="change">
-      <div class="peopleList">
-        <button
-          class="changePerson"
-          v-for="(item, index) in person"
-          :key="index"
-          @click="changePerson(index)"
-        >
-          {{ item }}
-        </button>
+  <div>
+    <div class="heroes">
+      <div class="text">
+        <p>{{ nowData.summary }}</p>
       </div>
+      <div class="peopleList"></div>
+      <div class="canvas" ref="heroes"></div>
     </div>
-    <div class="canvas" ref="heroes"></div>
-    <div class="text">
-      <p>{{ nowData.summary }}</p>
+    <div class="btns">
+      <button
+        class="changePerson"
+        v-for="(item, index) in person"
+        :key="index"
+        @click="changePerson(index)"
+      >
+        {{ item }}
+      </button>
     </div>
   </div>
 </template>
@@ -32,6 +33,7 @@ export default {
       person: ["陆嵩", "贝青乔", "王韬", "胡石予", "金天翮", "高旭"],
       nowData: {},
       myChart: null,
+      imgSrc: "/heroes_img/heroes_1.png",
     };
   },
   methods: {
@@ -42,39 +44,40 @@ export default {
       // 绘制图表
       this.myChart.hideLoading();
       this.option = {
-        title: {},
         radar: {
           indicator: [
             {
-              name: "主题创作完整度",
+              name: "主题创作\n完整度",
               max: 6000,
             },
             {
-              name: "诗体类型丰富度",
+              name: "诗体类型\n丰富度",
               max: 6000,
             },
             {
-              name: "诗学论著构架完成度",
+              name: "诗学论著\n构架完成度",
               max: 6000,
             },
             {
-              name: "个人风格鲜明度",
+              name: "个人风格\n鲜明度",
               max: 6000,
             },
             {
-              name: "交游网络广泛度",
+              name: "交游网络\n广泛度",
               max: 6000,
             },
             {
-              name: "后世影响程度",
+              name: "后世影响\n程度",
               max: 6000,
             },
           ],
           axisName: {
-            color: "#773e33",
+            color: "#fff",
+            fontSize: 16,
+            fontFamily: "STFangsong",
           },
         },
-
+        color: ["#9b784d"],
         series: [
           {
             name: "人物及其关系", // 名称
@@ -91,14 +94,14 @@ export default {
       this.myChart.setOption(this.option);
     },
     changePerson(id) {
+      console.log(id);
       this.nowData = graph.people[id];
-      console.log(this.nowData.value);
+      this.imgSrc = `/heroes_img/heroes_${id + 1}.png`;
       this.addChart();
     },
   },
   mounted() {
     this.nowData = graph.people[0];
-    console.log(this.nowData);
     this.addChart();
   },
 };
@@ -108,43 +111,61 @@ export default {
 .heroes {
   width: 100%;
   display: flex;
-  height: 700px;
-  background-image: url(../../assets/img/heroes.png),
-    url(../../assets/img/heroesBg.png);
+  height: 900px;
+  background-image: url(../../assets/img/heroesBg.png),
+    url(../../assets/img/crane.png);
   background-repeat: no-repeat, no-repeat;
-  background-size: 500px 300px, 100% 100%;
-  background-position: top left;
+  background-size: 100% 100%, 340px 300px;
+  background-position: left, top -100px right 200px;
   align-items: center;
 }
-.change {
-  width: 350px;
-  .peopleList {
-    display: flex;
-    width: 350px;
-    flex-wrap: wrap;
-    margin-top: 240px;
-    .changePerson {
-      width: 100px;
-      letter-spacing: 1px;
-      height: 50px;
-      font-size: 18px;
-      border-radius: 50px;
-      border: 1px solid #af957d;
-      background-color: #9b784d;
-      margin: 1px;
-      color: #d8cec4;
-      margin-top: 20px;
-      margin-left: 14px;
-      cursor: pointer;
-      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-    }
+.peopleList {
+  display: flex;
+  min-width: 300px;
+  transform: translateY(40px);
+  align-self: flex-end;
+
+  .active {
+    background-color: #fff;
+    color: #9b784d;
   }
 }
 .canvas {
   width: 600px;
-  height: 400px;
+  height: 500px;
+  transform: translate(20px, 220px);
 }
 .text {
-  margin-right: 20px;
+  margin-left: 60px;
+  width: 420px;
+  height: 360px;
+  transform: translateY(280px);
+  p {
+    margin: 0px;
+  }
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  transform: translateX(-180px);
+  .changePerson {
+    width: 54px;
+    letter-spacing: 1px;
+    height: 32px;
+    font-family: STFangsong;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #af957d;
+    background-color: #9b784d;
+    color: #fff;
+    margin-left: 14px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    &:hover {
+      background-color: #fff;
+      color: #9b784d;
+    }
+  }
 }
 </style>

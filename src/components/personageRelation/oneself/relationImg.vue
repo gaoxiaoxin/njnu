@@ -10,7 +10,10 @@
       </div>
       <div class="left">
         <template v-for="(item, index) in people">
-          <button @click="changePoet(item.spell)" class="poetBtn">
+          <button
+            @click="changePoet(item.spell, index)"
+            :class="['poetBtn', index === activeIndex ? 'btnActive' : '']"
+          >
             {{ item.name }}
           </button>
         </template>
@@ -34,6 +37,8 @@ export default {
     return {
       peopleRelation: {},
       isShow: true,
+      activeIndex: null,
+      preIndex: null,
       people: [
         {
           name: "李根源",
@@ -99,6 +104,15 @@ export default {
       myChart.hideLoading();
       var option = {
         tooltip: {},
+        color: [
+          "#95683f",
+          "#ad9d86",
+          "#cf9b62",
+          "#773e37",
+          "#a28064",
+          "#c6bcb0",
+          "#83642e",
+        ],
         legend: [
           {
             // selectedMode: 'single',
@@ -127,6 +141,7 @@ export default {
               // 图形上的文本标签
               position: "top", // 显示的位置
               formatter: "{b}", // 要显示的内容, 这个是显示名称
+              textBorderColor: "none",
             },
             lineStyle: {
               // 关系边的公共线条样式
@@ -146,18 +161,34 @@ export default {
       };
       myChart.setOption(option);
     },
-    changePoet(poetSpell) {
-      this.graph = peopleRelation[poetSpell];
-      this.addChart();
+    changePoet(poetSpell, index) {
+      if (index !== "") {
+        if (!this.isShow) {
+          this.activeIndex = index;
+          this.graph = peopleRelation[poetSpell];
+          this.addChart();
+        }
+      } else {
+        return;
+      }
     },
     change() {
       this.isShow = !this.isShow;
       if (!this.isShow) {
+        if (this.preIndex === null) {
+          // 如果为null, 则没有经过上一次
+          this.activeIndex = 0;
+        } else {
+          this.activeIndex = this.preIndex;
+        }
         new Promise((reject, response) => {
           reject();
         }).then(() => {
           this.addChart();
         });
+      } else {
+        this.preIndex = this.activeIndex;
+        this.activeIndex = null;
       }
     },
   },
@@ -173,6 +204,10 @@ export default {
   width: 100%;
   height: 600px;
   margin-bottom: 40px;
+}
+.btnActive {
+  background-color: #cf7a64 !important;
+  color: #fff;
 }
 .buttons {
   height: 50px;

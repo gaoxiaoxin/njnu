@@ -1,12 +1,14 @@
 <template>
   <div class="changeByTime">
     <div ref="change" class="changeTime"></div>
+    <div @click="addChart" class="begin">
+      <img src="../../assets/img/bird.png" alt="" />
+    </div>
   </div>
 </template>
 
 <script>
 import * as echarts from "echarts";
-import res0 from "./res0.json";
 import res1 from "./res1.json";
 export default {
   name: "change",
@@ -24,18 +26,17 @@ export default {
       const dimension = 0; // dataset对应的维度
       const countryColors = {
         // 城市的颜色
-        changzhou: "#00008b",
-        yuanhe: "#f00",
-        wuxian: "#ffde00",
-        wujiang: "#002a8f",
-        zhenze: "#003580",
-        changshu: "#ed2939",
-        kunshan: "#000",
-        taicang: "#003897",
-        zhaowen: "#f93",
-        chengqu: "#bc002d",
+        changzhou: "#773e37",
+        yuanhe: "#78674a",
+        wuxian: "#cf9b62",
+        wujiang: "#95683f",
+        zhenze: "#635b49",
+        changshu: "#c6bcb0",
+        kunshan: "#b1ab8e",
+        taicang: "#a28064",
+        zhaowen: "#83642e",
+        chengqu: "#ad9d86",
       };
-      const flags = res0;
       const data = res1;
       const years = [];
       // 当 year 的数据, 为0或者为和data中的下一个展示的数据不同的时候去push
@@ -72,12 +73,11 @@ export default {
         yAxis: {
           type: "category", // 坐标轴的类型 , "value" => "数值"， c => 类目
           inverse: true, // 是否是反向坐标轴
-          max: 10, // 最多11类
+          max: 9, // 最多11类
           axisLabel: {
             show: true,
             fontSize: 14,
             formatter: function (param) {
-              console.log(1, param);
               // 富标签
               return "{flag|" + param + "}";
             },
@@ -85,11 +85,12 @@ export default {
               flag: {
                 fontSize: 25,
                 padding: 5,
+                fontFamily: "STFangsong",
               },
             },
           },
-          animationDuration: 300, // 初始动画时长
-          animationDurationUpdate: 300, // 数据更新动画的时长
+          animationDuration: 1000, // 初始动画时长
+          animationDurationUpdate: 1500, // 数据更新动画的时长
         },
         series: [
           {
@@ -132,7 +133,7 @@ export default {
               bottom: 60,
               style: {
                 text: startYear,
-                font: "bolder 80px monospace",
+                font: "bolder 80px STFangsong",
                 fill: "rgba(100, 100, 100, 0.25)",
               },
               z: 100,
@@ -165,9 +166,26 @@ export default {
 </script>
 
 <style scoped lang="less">
+.changeByTime {
+  display: flex;
+  .begin {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    // overflow: hidden;
+    transform: translate(170px, -103px);
+    transition: transform 2s linear;
+    &:hover {
+      transform: translate(70px, -70px);
+    }
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
 .changeTime {
-  width: 100%;
-  height: 700px;
-  border: 1px solid #333;
+  width: calc(100% - 500px);
+  height: 470px;
 }
 </style>

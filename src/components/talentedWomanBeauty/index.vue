@@ -1,5 +1,11 @@
 <template>
   <div class="twb">
+    <div class="tooltip">
+      <p>
+        点击人物图片，<br />即可开始语音讲解<br />
+        再次点击人物图片，<br />语音讲解暂停
+      </p>
+    </div>
     <div class="container">
       <div
         class="talented-img"
@@ -131,7 +137,7 @@ export default {
   .container {
     margin-top: 120px;
     display: flex;
-    justify-content: center;
+    margin-left: 120px;
     .talented-img {
       height: 400px;
       cursor: pointer;
@@ -155,19 +161,23 @@ export default {
         transform: translateY(30px);
       }
       &:nth-child(2) {
-        transform: rotate(2deg);
+        transform: rotate(2deg) translateX(-35px);
       }
       &:nth-child(3) {
-        transform: translateY(-40px);
+        transform: translateY(-40px) translateX(-55px);
       }
       &:nth-child(4) {
-        transform: translateY(20px);
+        transform: translateY(20px) translateX(-65px);
       }
       &:nth-child(5) {
-        transform: translateY(40px);
+        transform: translateY(40px) translateX(-105px);
       }
       &:nth-child(6) {
-        transform: translateY(-20px);
+        transform: translateY(-20px) translateX(-95px);
+        span {
+          align-self: flex-end;
+          padding-bottom: 70px;
+        }
       }
     }
   }
@@ -206,5 +216,18 @@ export default {
 .detail-leave-active {
   opacity: 0;
   transition: opacity 0.5s;
+}
+.tooltip {
+  background-image: url(../../assets/img/he1.png);
+  background-repeat: no-repeat;
+  background-size: 300px 440px;
+  float: right;
+  transform: translate(50px, -240px);
+  height: 313px;
+  p {
+    position: relative;
+    top: 60px;
+    right: 100px;
+  }
 }
 </style>
