@@ -65,6 +65,7 @@ peopleRelation.friend = Friendstr.split('、');
 */
 var idNum = 0;
 function addData(array, category) {
+  // 如果没有数据就直接出去
   if (array.length === 0) {
     return
   }
@@ -85,7 +86,6 @@ addData(peopleRelation.teacAndStu, 2);
 addData(peopleRelation.friend, 3);
 
 function addLinks(length) {
-  1
   for (let i = 0; i < length; i++) {
     let link = {
       source: `${peopleId}`,
@@ -96,6 +96,7 @@ function addLinks(length) {
 }
 let num = peopleRelation.cognation.length + peopleRelation.teacAndStu.length + peopleRelation.friend.length
 addLinks(num)
+// 把数据写入文件
 fs.writeFile(filePath, JSON.stringify(fileData), err => {
   if (err) {
     console.log(err);

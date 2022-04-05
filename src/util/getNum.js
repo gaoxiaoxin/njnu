@@ -1,3 +1,6 @@
+/* 
+@params: category ==> 是等级
+*/
 exports.getNum = (category, i) => {
   let num = 1.5;
   if (category > 2) {
@@ -5,10 +8,11 @@ exports.getNum = (category, i) => {
   }
   let x = 0;
   let y = 0;
+  // 获取随机数
   x = getRndInteger(num * -100, num * 100);
   console.log(x);
-  sqrtNum = ((num * 100) ** 2) - x ** 2
-  // console.log(num ** 2);
+  let sqrtNum = ((num * 100) ** 2) - x ** 2
+  // 让y上下随机
   y = Math.sqrt(sqrtNum) * ((-1) ** i)
   console.log(y);
   return {

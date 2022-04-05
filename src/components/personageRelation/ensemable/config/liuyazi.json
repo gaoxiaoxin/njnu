@@ -1,1 +1,366 @@
-{"nodes":[{"id":13,"name":"柳亚子","symbolSize":30,"x":0,"y":0,"value":"本人","category":0},{"id":"13-0","name":"郑佩宜","symbolSize":15,"value":"妻子","category":1,"x":-96,"y":115.25623627379127},{"id":"13-1","name":"柳无忌","symbolSize":15,"value":"儿子","category":1,"x":26,"y":-147.7294825009551},{"id":"13-2","name":"柳无垢","symbolSize":15,"value":"女儿","category":1,"x":88,"y":121.47427711248172},{"id":"13-3","name":"柳光辽","symbolSize":15,"value":"外孙","category":1,"x":-136,"y":-63.2771680782255},{"id":"13-4","name":"费漱芳","symbolSize":15,"value":"母亲","category":1,"x":-42,"y":144},{"id":"13-5","name":"蔡元培","symbolSize":15,"value":"师长","category":2,"x":35,"y":145.8595214581482},{"id":"13-6","name":"章太炎","symbolSize":15,"value":"师长","category":2,"x":-53,"y":-140.3246236410417},{"id":"13-7","name":"宋遁初","symbolSize":15,"value":"友人","category":3,"x":-99,"y":283.1942796032434},{"id":"13-8","name":"高旭","symbolSize":15,"value":"友人","category":3,"x":96,"y":-284.22526277584825},{"id":"13-9","name":"陈去病","symbolSize":15,"value":"友人","category":3,"x":172,"y":245.79666393179545},{"id":"13-10","name":"沈昌眉","symbolSize":15,"value":"友人","category":3,"x":-122,"y":-274.07298298081116},{"id":"13-11","name":"沈昌直","symbolSize":15,"value":"友人","category":3,"x":-283,"y":99.55400544428134},{"id":"13-12","name":"周芷畦","symbolSize":15,"value":"友人","category":3,"x":-154,"y":-257.4567924914781},{"id":"13-13","name":"褚辅成","symbolSize":15,"value":"友人","category":3,"x":183,"y":237.72042402789037},{"id":"13-14","name":"宋庆龄","symbolSize":15,"value":"友人","category":3,"x":-184,"y":-236.9472515139182},{"id":"13-15","name":"何香凝","symbolSize":15,"value":"友人","category":3,"x":187,"y":234.58687090287043},{"id":"13-16","name":"陈陶遗","symbolSize":15,"value":"友人","category":3,"x":155,"y":-256.85599078082646},{"id":"13-17","name":"马君武","symbolSize":15,"value":"友人","category":3,"x":95,"y":284.56106550264394},{"id":"13-18","name":"刘师培","symbolSize":15,"value":"友人","category":3,"x":-141,"y":-264.7999244712883},{"id":"13-19","name":"朱少屏","symbolSize":15,"value":"友人","category":3,"x":-127,"y":271.7922000352475},{"id":"13-20","name":"姚石子","symbolSize":15,"value":"友人","category":3,"x":-171,"y":-246.49340761975765},{"id":"13-21","name":"邹容","symbolSize":15,"value":"友人","category":3,"x":-245,"y":173.13289693180786},{"id":"13-22","name":"胡道静","symbolSize":15,"value":"友人","category":3,"x":126,"y":-272.25723130892226},{"id":"13-23","name":"郑振铎","symbolSize":15,"value":"友人","category":3,"x":-279,"y":110.26785569693463},{"id":"13-24","name":"阿英","symbolSize":15,"value":"友人","category":3,"x":124,"y":-273.173937263422},{"id":"13-25","name":"钱杏邨","symbolSize":15,"value":"友人","category":3,"x":211,"y":213.25805963667585},{"id":"13-26","name":"胡朴安","symbolSize":15,"value":"友人","category":3,"x":25,"y":-298.95651857753495}],"links":[{"source":"13","target":"13-0"},{"source":"13","target":"13-1"},{"source":"13","target":"13-2"},{"source":"13","target":"13-3"},{"source":"13","target":"13-4"},{"source":"13","target":"13-5"},{"source":"13","target":"13-6"},{"source":"13","target":"13-7"},{"source":"13","target":"13-8"},{"source":"13","target":"13-9"},{"source":"13","target":"13-10"},{"source":"13","target":"13-11"},{"source":"13","target":"13-12"},{"source":"13","target":"13-13"},{"source":"13","target":"13-14"},{"source":"13","target":"13-15"},{"source":"13","target":"13-16"},{"source":"13","target":"13-17"},{"source":"13","target":"13-18"},{"source":"13","target":"13-19"},{"source":"13","target":"13-20"},{"source":"13","target":"13-21"},{"source":"13","target":"13-22"},{"source":"13","target":"13-23"},{"source":"13","target":"13-24"},{"source":"13","target":"13-25"},{"source":"13","target":"13-26"}]}
+{
+  "nodes": [
+    {
+      "id": 13,
+      "name": "柳亚子",
+      "symbolSize": 30,
+      "x": 0,
+      "y": 0,
+      "value": "本人",
+      "category": 0
+    },
+    {
+      "id": "13-0",
+      "name": "郑佩宜",
+      "symbolSize": 15,
+      "value": "妻子",
+      "category": 1,
+      "x": -96,
+      "y": 115.25623627379127
+    },
+    {
+      "id": "13-1",
+      "name": "柳无忌",
+      "symbolSize": 15,
+      "value": "儿子",
+      "category": 1,
+      "x": 26,
+      "y": -147.7294825009551
+    },
+    {
+      "id": "13-2",
+      "name": "柳无垢",
+      "symbolSize": 15,
+      "value": "女儿",
+      "category": 1,
+      "x": 88,
+      "y": 121.47427711248172
+    },
+    {
+      "id": "13-3",
+      "name": "柳光辽",
+      "symbolSize": 15,
+      "value": "外孙",
+      "category": 1,
+      "x": -136,
+      "y": -63.2771680782255
+    },
+    {
+      "id": "13-4",
+      "name": "费漱芳",
+      "symbolSize": 15,
+      "value": "母亲",
+      "category": 1,
+      "x": -42,
+      "y": 144
+    },
+    {
+      "id": "13-5",
+      "name": "蔡元培",
+      "symbolSize": 15,
+      "value": "师长",
+      "category": 2,
+      "x": 35,
+      "y": 145.8595214581482
+    },
+    {
+      "id": "13-6",
+      "name": "章太炎",
+      "symbolSize": 15,
+      "value": "师长",
+      "category": 2,
+      "x": -53,
+      "y": -140.3246236410417
+    },
+    {
+      "id": "13-7",
+      "name": "宋遁初",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -99,
+      "y": 283.1942796032434
+    },
+    {
+      "id": "13-8",
+      "name": "高旭",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 96,
+      "y": -284.22526277584825
+    },
+    {
+      "id": "13-9",
+      "name": "陈去病",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 172,
+      "y": 245.79666393179545
+    },
+    {
+      "id": "13-10",
+      "name": "沈昌眉",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -122,
+      "y": -274.07298298081116
+    },
+    {
+      "id": "13-11",
+      "name": "沈昌直",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -283,
+      "y": 99.55400544428134
+    },
+    {
+      "id": "13-12",
+      "name": "周芷畦",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -154,
+      "y": -257.4567924914781
+    },
+    {
+      "id": "13-13",
+      "name": "褚辅成",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 183,
+      "y": 237.72042402789037
+    },
+    {
+      "id": "13-14",
+      "name": "宋庆龄",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -184,
+      "y": -236.9472515139182
+    },
+    {
+      "id": "13-15",
+      "name": "何香凝",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 187,
+      "y": 234.58687090287043
+    },
+    {
+      "id": "13-16",
+      "name": "陈陶遗",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 155,
+      "y": -256.85599078082646
+    },
+    {
+      "id": "13-17",
+      "name": "马君武",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 95,
+      "y": 284.56106550264394
+    },
+    {
+      "id": "13-18",
+      "name": "刘师培",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -141,
+      "y": -264.7999244712883
+    },
+    {
+      "id": "13-19",
+      "name": "朱少屏",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -127,
+      "y": 271.7922000352475
+    },
+    {
+      "id": "13-20",
+      "name": "姚石子",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -171,
+      "y": -246.49340761975765
+    },
+    {
+      "id": "13-21",
+      "name": "邹容",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -245,
+      "y": 173.13289693180786
+    },
+    {
+      "id": "13-22",
+      "name": "胡道静",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 126,
+      "y": -272.25723130892226
+    },
+    {
+      "id": "13-23",
+      "name": "郑振铎",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": -279,
+      "y": 110.26785569693463
+    },
+    {
+      "id": "13-24",
+      "name": "阿英",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 124,
+      "y": -273.173937263422
+    },
+    {
+      "id": "13-25",
+      "name": "钱杏邨",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 211,
+      "y": 213.25805963667585
+    },
+    {
+      "id": "13-26",
+      "name": "胡朴安",
+      "symbolSize": 15,
+      "value": "友人",
+      "category": 3,
+      "x": 25,
+      "y": -298.95651857753495
+    }
+  ],
+  "links": [
+    {
+      "source": "13",
+      "target": "13-0"
+    },
+    {
+      "source": "13",
+      "target": "13-1"
+    },
+    {
+      "source": "13",
+      "target": "13-2"
+    },
+    {
+      "source": "13",
+      "target": "13-3"
+    },
+    {
+      "source": "13",
+      "target": "13-4"
+    },
+    {
+      "source": "13",
+      "target": "13-5"
+    },
+    {
+      "source": "13",
+      "target": "13-6"
+    },
+    {
+      "source": "13",
+      "target": "13-7"
+    },
+    {
+      "source": "13",
+      "target": "13-8"
+    },
+    {
+      "source": "13",
+      "target": "13-9"
+    },
+    {
+      "source": "13",
+      "target": "13-10"
+    },
+    {
+      "source": "13",
+      "target": "13-11"
+    },
+    {
+      "source": "13",
+      "target": "13-12"
+    },
+    {
+      "source": "13",
+      "target": "13-13"
+    },
+    {
+      "source": "13",
+      "target": "13-14"
+    },
+    {
+      "source": "13",
+      "target": "13-15"
+    },
+    {
+      "source": "13",
+      "target": "13-16"
+    },
+    {
+      "source": "13",
+      "target": "13-17"
+    },
+    {
+      "source": "13",
+      "target": "13-18"
+    },
+    {
+      "source": "13",
+      "target": "13-19"
+    },
+    {
+      "source": "13",
+      "target": "13-20"
+    },
+    {
+      "source": "13",
+      "target": "13-21"
+    },
+    {
+      "source": "13",
+      "target": "13-22"
+    },
+    {
+      "source": "13",
+      "target": "13-23"
+    },
+    {
+      "source": "13",
+      "target": "13-24"
+    },
+    {
+      "source": "13",
+      "target": "13-25"
+    },
+    {
+      "source": "13",
+      "target": "13-26"
+    }
+  ]
+}
