@@ -136,6 +136,7 @@
         <img src="./assets/img/logo2.png" alt="" />
       </div>
       <div class="nav_list" v-if="isShowList">
+        <a href="#preface">卷首语</a>
         <a href="#first">传统源流</a>
         <a href="#two">地域分布</a>
         <a href="#three">群像撷英</a>
