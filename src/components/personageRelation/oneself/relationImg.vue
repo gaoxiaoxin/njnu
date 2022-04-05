@@ -195,7 +195,6 @@ export default {
   mounted() {
     this.peopleRelation = peopleRelation;
     this.graph = peopleRelation.ligengyuan;
-    this.addChart();
   },
 };
 </script>

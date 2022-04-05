@@ -3,7 +3,7 @@
     <div class="head-picture margin_bottom_middle">
       <img src="./assets/img/logo2.png" alt="head-picture" />
     </div>
-    <div class="preface-text margin_bottom_big">
+    <div class="preface-text margin_bottom_big" id="preface">
       <div class="preface">
         <p>江南旧游凡几处，旧中最忆吴江隈。</p>
         <p>
@@ -17,7 +17,7 @@
         <img src="./assets/img/house.png" alt="one house png" />
       </div>
     </div>
-    <div class="first-module margin_bottom_big">
+    <div class="first-module margin_bottom_big" id="first">
       <div class="first-module-text margin_bottom_middle">
         <p class="serve_title">
           勾吴始启宇，三让来就封。人文蔚然起，风尚为时宗。
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div class="two-module margin_bottom_big">
+    <div class="two-module margin_bottom_big" id="two">
       <div class="two-module-text">
         <div class="bamboo_img">
           <img src="./assets/img/bamboo.png" alt="" />
@@ -54,7 +54,7 @@
       </div>
     </div>
 
-    <div class="three-module margin_bottom_big">
+    <div class="three-module margin_bottom_big" id="three">
       <div class="three-module-text">
         <div class="content">
           <p class="serve_title">吾邑人才盛，文采旧王孙。</p>
@@ -84,12 +84,12 @@
         <twb></twb>
       </div>
     </div>
-    <div class="four-module margin_bottom_big">
+    <div class="four-module margin_bottom_big" id="four">
       <div class="sunburst_ec">
         <sunburst></sunburst>
       </div>
     </div>
-    <div class="five-module margin_bottom_big">
+    <div class="five-module margin_bottom_big" id="five">
       <div class="graph_text">
         <div class="ps">
           <p class="serve_title">昔年离散亦如梦，谁料天涯生再共。</p>
@@ -105,7 +105,7 @@
       </div>
     </div>
 
-    <div class="ciYundom margin_bottom_big">
+    <div class="ciYundom margin_bottom_big" id="six">
       <ciyunCom></ciyunCom>
     </div>
     <div class="overText margin_bottom_big">
@@ -129,6 +129,19 @@
         <p>小组成员：谭惠予，李丹，何天赐</p>
 
         <p>在此由衷感谢陈波老师、黄卓颖老师所提供的帮助。</p>
+      </div>
+    </div>
+    <div class="nav" v-if="isShowNav">
+      <div class="img" @click="changeShowList">
+        <img src="./assets/img/logo2.png" alt="" />
+      </div>
+      <div class="nav_list" v-if="isShowList">
+        <a href="#first">传统源流</a>
+        <a href="#two">地域分布</a>
+        <a href="#three">群像撷英</a>
+        <a href="#four">主题探究</a>
+        <a href="#five">关系网络</a>
+        <a href="#six">诗学思想</a>
       </div>
     </div>
   </div>
@@ -155,8 +168,26 @@ export default {
   },
   data() {
     return {
-      isShow: false,
+      isShowList: false,
+      isShowNav: true,
     };
+  },
+  methods: {
+    changeShowList() {
+      this.isShowList = !this.isShowList;
+    },
+    changeShowNav(e) {
+      let top = e.srcElement.scrollingElement.scrollTop;
+      if (top > 400) {
+        this.isShowNav = true;
+      } else {
+        this.isShowNav = false;
+      }
+      return;
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.changeShowNav);
   },
 };
 </script>
@@ -250,7 +281,7 @@ export default {
     display: flex;
     width: 100%;
     height: 700px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     background-image: url(./assets/img/43.png), url(./assets/img/12.png);
     background-repeat: no-repeat;
     background-position: top right, bottom -90px right;
@@ -351,7 +382,35 @@ export default {
     font-size: 21px;
     font-weight: 600;
   }
-  .content {
+}
+
+.nav {
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
+  .img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .nav_list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -70px;
+    top: -40px;
+    a {
+      text-decoration: none;
+      color: #333;
+      margin-top: 5px;
+      font-weight: 800;
+      font-family: kaiti;
+      text-shadow: 0 0 10px #a28064;
+    }
   }
 }
 </style>
