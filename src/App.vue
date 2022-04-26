@@ -170,7 +170,7 @@ export default {
   data() {
     return {
       isShowList: false,
-      isShowNav: true,
+      isShowNav: false,
     };
   },
   methods: {
@@ -204,7 +204,7 @@ export default {
   display: flex;
   background-size: 100% 100%;
   justify-content: flex-end;
-  height: 600px;
+  height: 700px;
   img {
     width: 150px;
     height: 150px;
@@ -238,7 +238,7 @@ export default {
 }
 .preface-text {
   display: flex;
-  height: 500px;
+  height: 640px;
   align-items: center;
   .preface {
     p {
@@ -351,7 +351,7 @@ export default {
 
 .ciYundom {
   width: 100%;
-  height: 600px;
+  height: 700px;
 }
 .overText {
   background-image: url(./assets/img/7.png);

@@ -24,8 +24,8 @@
 
 <script>
 import * as echarts from "echarts";
-import peopleRelation from "../ensemable/config/index";
-import graphCategories from "../ensemable/config";
+import peopleRelation from "../oneselfData/config/index";
+import graphCategories from "../oneselfData/config";
 import ch2Vue from "../ch2/ch2.vue";
 export default {
   name: "relationImg",

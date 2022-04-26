@@ -53,14 +53,15 @@ export default {
 
 <style scoped lang="less">
 .ciyunCom {
-  height: 600px;
+  height: 700px;
   width: 100%;
   background-image: url(../../assets/img/46.png);
   background-repeat: no-repeat;
   background-size: 500px 300px;
-  background-position: top -40px left 100px;
+  background-position: top 20px left 100px;
   display: flex;
   justify-content: center;
+  align-items: center;
   .content {
     width: calc(100% - 150px);
     display: flex;
@@ -99,7 +100,7 @@ export default {
     .ciyun_text {
       margin-top: 180px;
       p {
-        margin: 0 46px;
+        margin: 0 20px 0 0;
         &:nth-child(1) {
           margin: 0;
         }
